@@ -13,6 +13,28 @@ console.log(gameName.toUpperCase());//but it doesnt change the original string
 console.log(gameName.charAt(2)); //at which index which character is present 
 
 console.log(gameName.indexOf('r'));//at which index r is present
+const newString = gameName.substring(1, 4) //extracting sub string from 1 to 4 exclude 4 
+console.log(newString);
+
+const anotherString = gameName.slice(-9 , 5) //we can also give negative value or index in the slice
+console.log(anotherString);
+
+const newstr = "    Riiiyyyaaz     "
+console.log(newstr);
+console.log(newstr.trim());//trim will remove the unnecessory space from the string 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
