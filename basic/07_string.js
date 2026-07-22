@@ -10,6 +10,13 @@ const gameName = new String('GTriyaz')//we have used object to create string and
 console.log(gameName[0]);//=>G
 console.log(gameName.length);
 console.log(gameName.toUpperCase());//but it doesnt change the original string
+console.log(gameName.charAt(2)); //at which index which character is present 
+
+console.log(gameName.indexOf('r'));//at which index r is present
+
+
+
+
 
 
 
