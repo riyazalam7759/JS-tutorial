@@ -22,6 +22,28 @@ console.log(anotherString);
 const newstr = "    Riiiyyyaaz     "
 console.log(newstr);
 console.log(newstr.trim());//trim will remove the unnecessory space from the string 
+//also have trim start and trim end
+
+const url = "https:/ryz.com/riyaz%20alam"
+const newUrl=url.replace('%20' , '_')//first it will search for %20 then it will be replaced by _
+console.log(newUrl);
+
+console.log(url.includes('ryz'));//does url contains ryz if yes then it give true
+
+const userId = "riyaz_raf_alal@.com"
+console.log(userId.split('_'));//split userId on the basis of _ then we get a array
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
