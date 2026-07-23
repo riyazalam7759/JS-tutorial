@@ -29,6 +29,25 @@ console.log(Math.min(4,3,6,1,9,10));//give the minimum value from the array =>1
 console.log(Math.max(4, 3,6 ,1,9,10));//give max value
 
 
+console.log("OPERATIONS WITH RANDOM");
+
+console.log(Math.random());//always give a random value between 1 and 0
+console.log((Math.random()*10) + 1);
+console.log(Math.floor(Math.random() * 10) + 1);//give integer or floor value 
+
+const min = 11
+const max = 23
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);//number will come between 10 to 20 
+console.log(Math.floor(Math.random()));
+
+
+
+
+
+
+
+
+
 
 
 
