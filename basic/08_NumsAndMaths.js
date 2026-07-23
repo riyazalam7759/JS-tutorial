@@ -11,6 +11,43 @@
 const otherNum = 12.8966//means doing roundoff
 console.log(otherNum.toPrecision(3));//give the precise value contain 3 digit including after decimal or overall digits
 
+const hundreds = 1000000
+console.log(hundreds.toLocaleString());//=>1,000,000 according to america
+console.log(hundreds.toLocaleString('en-IN'));//=>10,00,000 according to India
+
+//+++++++++++++++++++++++++++++Maths+++++++++++++++++++++++++++
+
+console.log("Learning Mathematics");
+
+console.log(Math);
+console.log(Math.abs(-100));//its like apply mod to the number
+console.log(Math.round(4.6));//it will do the round off the number 4.6
+console.log(Math.ceil(4.2));//it will always give 5 if any number is slightly bigger than 4 
+console.log(Math.floor(4.9));//give the lower value => 4
+
+console.log(Math.min(4,3,6,1,9,10));//give the minimum value from the array =>1
+console.log(Math.max(4, 3,6 ,1,9,10));//give max value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
