@@ -37,7 +37,7 @@ console.log(Math.floor(Math.random() * 10) + 1);//give integer or floor value
 
 const min = 11
 const max = 23
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);//number will come between 10 to 20 
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);//number will come between 11 to 23
 console.log(Math.floor(Math.random()));
 
 

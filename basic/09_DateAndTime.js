@@ -24,6 +24,28 @@ console.log(myTimeStamp);//give the time in milisecond
 console.log(Math.floor(Date.now()/1000));//changes into second
 
 
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getMonth());
+console.log(newDate.getDay());
+
+newDate.toLocaleDateString('default' ,{
+    weekday:"long",//there will be many entity in place of long like narraw etc
+    timeZone: ""//we can also provide timeZone here
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
