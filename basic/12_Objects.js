@@ -31,11 +31,23 @@ console.log("E" , JsUser[mySym2]);//now datatype will be symbol
 
 console.log("\n\nCHANGING VALUE OF KEY OF OBJECT");
 JsUser.email="23btsc006@gmail.com"
-Object.freeze(JsUser)//now object get freezed and we cant make changes in object JsUser
+//Object.freeze(JsUser)//now object get freezed and we cant make changes in object JsUser
 JsUser.email="23bt@gmail.com"//now email wont be changed
 console.log(JsUser);
 
+JsUser.greeting = function(){//function will treated as variable
+    console.log("hello JS user ");
+    
+}
+JsUser.greeting2 = function(){
+    console.log(`hello user1 ${this.name}`);
+    
+}
 
+//console.log(JsUser.greeting);=>it will show undefined
+console.log(JsUser.greeting());//it will run the function show output along with undefined 
+console.log(JsUser.greeting)//it will show the function reference
+console.log(JsUser.greeting2());
 
 
 
