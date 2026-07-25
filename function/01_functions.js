@@ -39,4 +39,26 @@ function calculateCartPrice(...num1){//here ... it is called as rest operator
 }
 console.log(calculateCartPrice(200,300,400))//=>it will give the array of these numbers
 
+console.log("\n\nPASSING OBJECT AS PARAMETER")
+const user ={
+    username2:"riyaz",
+    id:"123abc"
+}
 
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username2} and id is ${anyObject.id}`)
+}
+handleObject(user)//or
+/*  WE CAN ALSO PASS DIRECT OBJECT
+handleObject({
+username2:"riyaz",
+id:"123abc"
+})
+ */
+
+const myNewArray = [200 , 400 , 600]
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+//console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([200,400,500,1000]))
