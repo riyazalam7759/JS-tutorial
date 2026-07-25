@@ -21,3 +21,13 @@ function addTwoNumbers2(n1,n2){
 }
 let res = addTwoNumbers2(4,5)
 console.log(res)
+
+function loginUserMessage(username){//username="sam" this is the default value of username
+    if(username===undefined){//or if(!username)
+        console.log("please enter username");
+        return
+    }
+    return `${username} just logged in`
+}
+//console.log(loginUserMessage("riyazz"))
+console.log(loginUserMessage())
