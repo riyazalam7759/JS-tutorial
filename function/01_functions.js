@@ -31,3 +31,12 @@ function loginUserMessage(username){//username="sam" this is the default value o
 }
 //console.log(loginUserMessage("riyazz"))
 console.log(loginUserMessage())
+
+console.log("\n\nSECOND PART OF THE FUNCTION")
+
+function calculateCartPrice(...num1){//here ... it is called as rest operator
+   return num1
+}
+console.log(calculateCartPrice(200,300,400))//=>it will give the array of these numbers
+
+
