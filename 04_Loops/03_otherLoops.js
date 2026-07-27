@@ -15,3 +15,7 @@ for(const greet of greeting){
     console.log(`each character ${greet}`)
 }
 
+//+++++++++++++++++++MAP++++++++++++++++
+//there is no any duplicate value all values are unique
+console.log("\n\nLEARNING MAP")
+const map = new Map()
