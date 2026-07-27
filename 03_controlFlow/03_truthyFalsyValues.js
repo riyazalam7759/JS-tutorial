@@ -26,3 +26,14 @@ if(userEmail2.length===0) console.log(" \nuser email is empty ")
 //checking empty object 
 const emptyObj ={}
 if(Object.keys(emptyObj).length===0) console.log("object is empty")//Object.keys(emptyObj) => this will return an array
+
+/*
+false ==0 => true
+false =='' => true    empty string 
+0 == '' => true       empty string
+ */
+
+
+
+
+
