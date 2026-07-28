@@ -19,3 +19,7 @@ for(const greet of greeting){
 //there is no any duplicate value all values are unique
 console.log("\n\nLEARNING MAP")
 const map = new Map()
+map.set('IN' , "India")
+map.set('USA' , "America")
+map.set('Fr' , "France")
+console.log(map)
