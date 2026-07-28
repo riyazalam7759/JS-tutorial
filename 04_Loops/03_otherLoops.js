@@ -17,9 +17,15 @@ for(const greet of greeting){
 
 //+++++++++++++++++++MAP++++++++++++++++
 //there is no any duplicate value all values are unique
-console.log("\n\nLEARNING MAP")
+console.log("\n\nLEARNING MAP")//stores only unique values
 const map = new Map()
 map.set('IN' , "India")
 map.set('USA' , "America")
 map.set('Fr' , "France")
-console.log(map)
+//console.log(map)//similar to object like it contain key and its values
+for(const key of map){
+    console.log(key)//it will give key as well as values in array form 
+}
+
+
+
