@@ -31,4 +31,13 @@ for(const [key , value] of map){
     console.log(key , ':-' , value)//now we did destructure of map by which we can princ key and value individually
 }
 
+console.log("\n\n APPLYIN FOR OF LOOP ON OBJECT")
+const myObj = {
+    'game1':'NFS',
+    'game2':'Spiderman',
+    'game3':'MineCraft'
+}
+for([key , value] of myObj){//this will give error
+    console.log(key , ':-' , value)//but this is not iterable it wont work like this 
+}
 
