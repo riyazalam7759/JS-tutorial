@@ -26,6 +26,9 @@ map.set('Fr' , "France")
 for(const key of map){
     console.log(key)//it will give key as well as values in array form 
 }
-
+console.log("\n")
+for(const [key , value] of map){
+    console.log(key , ':-' , value)//now we did destructure of map by which we can princ key and value individually
+}
 
 
