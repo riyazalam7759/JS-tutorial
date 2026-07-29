@@ -63,3 +63,5 @@ const shoppingCartTotal = shoppingCart.reduce((acc , item)=>acc + item.price, 0)
 
 console.log("the total price of the shopping cart is :" , shoppingCartTotal)
 
+//completed first JavaScript oneShot tutorial on YouTube by Chai aur Code 
+//now i have to start Second part
