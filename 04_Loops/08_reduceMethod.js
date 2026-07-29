@@ -15,11 +15,51 @@ reducer will also have call back function which will take two parameters accumul
 console.log(sumWithInitial); // expected output: 15
  */
 
-const myNums = [1, 2, 3, 4 , 5];
+const myNums = [1, 2, 3, 4 ];
 const myTotal=myNums.reduce(function(acc , currVal){
     console.log(`accumulator: ${acc} , currentValue: ${currVal}`);
     return acc + currVal;
 }, 0)// 0 is the initial value of the accumulator
 
 console.log("the total sum is :" , myTotal)
+//we can apply reduce method in the e-commerece app as they will add new item in the cart
+
+console.log("\n\n APPLYING REDUCE METHOD WITH THE HELP OF ARROW FUNCTION")
+
+const myNums2 = [1, 2, 3, 4 , 5];
+// const myTotal2=myNums2.reduce((acc , currVal)=>{
+//     console.log(`accumulator: ${acc} , currentValue: ${currVal}`);
+//     return acc + currVal;
+// }, 0)// 0 is the initial value of the accumulator
+
+const myTotal2= myNums2.reduce((acc , curr)=> acc+curr ,0)// 0 is the initial value of the accumulator
+
+console.log("the total sum is :" , myTotal2)
+
+const shoppingCart = [
+    {
+        itemName: "mobile",
+        price: 20000,
+    },
+    {
+        itemName: "laptop",
+        price: 50000,
+    },
+    {
+        itemName: "tablet",
+        price: 30000,
+    },
+    {
+        itemName: "headphones",
+        price: 5000,
+    },
+    {
+        itemName: "charger",
+        price: 2000,
+    }
+]
+
+const shoppingCartTotal = shoppingCart.reduce((acc , item)=>acc + item.price, 0)
+
+console.log("the total price of the shopping cart is :" , shoppingCartTotal)
 
