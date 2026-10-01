@@ -1,6 +1,6 @@
-"use strict"
+"use strict"//this will help us to write clean code and avoid some error in js and treat all JS code as modern js code
 
-// alert(3 + 4); //we are using nodejs not brower so it wont show alert
+// alert(3 + 4); => we are using nodejs not brower so it wont show alert this will give errorr
 
 let name = "riyaz"
 let age = 23
