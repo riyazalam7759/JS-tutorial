@@ -2,9 +2,10 @@
 
 // alert(3 + 4); => we are using nodejs not brower so it wont show alert this will give errorr
 
-let name = "riyaz"
+let namee = "riyaz"
 let age = 23
 let isLoggedIn = false
+let state;//=> i have declared the variable but not assigned any value so it will show undefined if i try to print it
 
 /*
 type of data types
@@ -20,4 +21,8 @@ all above are premitive data types
 
 object
  */
-console.log(typeof null);
+console.log(typeof null);//=>object
+console.log(typeof undefined);//=>undefined
+console.log(typeof namee);//=>string
+console.log(typeof age);//=>number
+console.log(typeof isLoggedIn);//=>boolean
