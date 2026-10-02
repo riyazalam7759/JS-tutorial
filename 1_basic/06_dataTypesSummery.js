@@ -48,3 +48,6 @@ let anotherName = name1
  
 //is javascript dynamically typed or statically typed language ?
 //read documentation for typeof operator for all above datatypes
+//stack memory and heap memory are two types of memory allocation in js
+//stack memory is used for storing primitive data types and heap memory is used for storing reference data types
+//if stack memory is used then we got the copy of the declared variable and if heap memory is used then we got the reference of the declared variable
