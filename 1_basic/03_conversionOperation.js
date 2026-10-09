@@ -32,7 +32,7 @@ let num = 33
 let stringNumber = String(num)
 console.log(stringNumber);//=>33
 console.log(typeof stringNumber);//=>string
-
+console.log(typeof typeof stringNumber);//=>string
 let isLoggedIn = 1;//every value except 0,null and empty string is considered as true like 33 ,-2222 ,"23string" etc
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn);//=>true
