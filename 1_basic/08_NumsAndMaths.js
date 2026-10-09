@@ -3,7 +3,7 @@
  console.log(score);
 
  const balance = new Number(100)
- console.log(balance);
+ console.log(balance);//=>[Number: 100] it is an object and not a primitive value
  
  console.log(balance.toString());//converted into string 
  console.log(balance.toFixed(2));//go to the 2 precision after decimal
@@ -20,7 +20,7 @@ console.log(hundreds.toLocaleString('en-IN'));//=>10,00,000 according to India
 console.log("Learning Mathematics");
 
 console.log(Math);
-console.log(Math.abs(-100));//its like apply mod to the number
+console.log(Math.abs(-100));//it s like apply mod to the number
 console.log(Math.round(4.6));//it will do the round off the number 4.6
 console.log(Math.ceil(4.2));//it will always give 5 if any number is slightly bigger than 4 
 console.log(Math.floor(4.9));//give the lower value => 4
