@@ -5,7 +5,7 @@ console.log(name + rollNo + " sital") //concatenation
 //but use backticks `` for concatenation we use backticks cause of string interpollation
 //cause we make placeholder so that we can inject any variable with the help of ${}
 //like as for exxample 
-console.log(`my name is: ${name} and my roll Number is: ${rollNo}`);//called it as string interpollation
+console.log(`my name is: ${name} and my roll Number is: ${rollNo}`);//called it as string interpollation use backticks for string interpollation and ${} for injecting variable inside the string
 const gameName = new String('GTriyaz')//we have used object to create string and written string inside the constructor
 console.log(gameName[0]);//=>G
 console.log(gameName.length);
