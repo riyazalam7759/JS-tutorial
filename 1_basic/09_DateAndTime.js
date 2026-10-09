@@ -1,12 +1,12 @@
 //Date and Time in JS =>2:54:00
 
 let myDate = new Date()
-console.log(myDate);
-console.log(myDate.toString());
-console.log(myDate.toDateString());
-console.log(myDate.toLocaleString());
-console.log(myDate.toISOString());
-console.log(myDate.toJSON());
+console.log(myDate);//=>give the current date and time
+console.log(myDate.toString());//=>give the current date and time in string format
+console.log(myDate.toDateString());//=>give the current date in string format
+console.log(myDate.toLocaleString());//=>give the current date and time in string format according to your location
+console.log(myDate.toISOString());//=>give the current date and time in ISO string format
+console.log(myDate.toJSON());//=>give the current date and time in JSON string format
 console.log(typeof myDate);//=>this is an oject
 
 let myCreatedDate = new Date(2023 , 0 ,24 , 5,3)//in JavaScript month start from 0 zero
