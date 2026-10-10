@@ -15,7 +15,7 @@ const arr1 = [21,22,23,[24,25,26],27,[28,29,[30,31]]]
 const flatArr=arr1.flat(Infinity)//in place of infinity we can give the level of array to be flatted
 console.log(flatArr);
 
-console.log(Array.isArray("riyazz"));//it give output as true or false is riyazz array or not 
+console.log(Array.isArray("riyazz"));//it give output as true or false. Is riyazz array or not 
 console.log(Array.from("riyazz"));//this is string converted into array with each alphabet as element we can give anything like object etc to convert into array 
 console.log(Array.from({name:"Riyaz"}));//=>it will give empty array you have to tell whether make array of kays or values 
 
