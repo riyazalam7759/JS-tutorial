@@ -23,9 +23,9 @@ const JsUser = {//creating object as lliterals which contains keys and values
 } 
 
 //we can access all element in object by dot . like JsUser.email etc
-console.log("A" ,JsUser.email);
+console.log("A" ,JsUser.email);//=>riyaz@gmail.com 
 console.log("B" ,JsUser["email"])//behind the scene name email kept as string so we have to give here as string too
-console.log("C" ,JsUser["Full Name"]);
+console.log("C" ,JsUser["Full Name"]);//=>Riyaz Rafique
 console.log("D" ,JsUser.mySym);//it will give the value but datatype will not be symbol datatype will be string here
 console.log("E" , JsUser[mySym2]);//now datatype will be symbol
 
@@ -46,7 +46,7 @@ JsUser.greeting2 = function(){
 
 //console.log(JsUser.greeting);=>it will show undefined
 console.log(JsUser.greeting());//it will run the function show output along with undefined 
-console.log(JsUser.greeting)//it will show the function reference
+console.log(JsUser.greeting)//=> it will show the function reference
 console.log(JsUser.greeting2());
 
 
