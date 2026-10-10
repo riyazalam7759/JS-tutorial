@@ -13,8 +13,8 @@ const JsUser = {//creating object as lliterals which contains keys and values
 
     name:"Riyaz",//name is here as string too
     "Full Name":"Riyaz Rafique",//we cant access this fullName using dot .
-    mySym:"MyKey1",
-    [mySym2]:"myKey2",
+    mySym:"MyKey1",//it will give the value but datatype will not be symbol datatype will be string here
+    [mySym2]:"myKey2",//to use symbol as key we have to use [] and then symbol name
     age:"23",
     location:"Hyderabad",
     email:"riyaz@gmail.com",
