@@ -1,6 +1,6 @@
 //Objects =>4:04:00
 //we are going to play with singleton object or daclaration of object with constructor
-const tindeUser= new Object()
+const tindeUser= new Object()//=>singleton object created using constructor
 console.log("A",tindeUser);//=>will give empty object same as the literal object 
 
 const tindeUser2={}
