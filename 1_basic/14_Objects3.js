@@ -11,8 +11,8 @@ const course={
 const {courseInstructor}=course//extract courseInstructor from course object
 console.log(courseInstructor)//=>Hitesh
 
-const {price :p}=course//here did same thing extracting price but price is given a name which is p
-console.log(p)
+const {price :p}=course//name given to the price key as p
+console.log(p)//=>999
 
 console.log("\n\nLEARNING API ")
 //object without name is json like
