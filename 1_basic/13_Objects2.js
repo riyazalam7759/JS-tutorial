@@ -29,6 +29,7 @@ console.log("\n\nCOMBINING TOW OR MORE OBJECTS")
 const obj1={1:"a",2:"b",3:"c"}
 const obj2={4:"d",5:"e",6:"f"}
 const obj3={7:"g",8:"h"}
+//const objj={obj1,obj2} => this will give object inside object obj2 will be inside obj1 and obj1 will be inside objj
 //const obj3={obj1,obj2}n =>cant do like this to combine the objects
 const obj4=Object.assign({},obj1,obj2,obj3)//=>syntax to combine two object here empty object is optional
 console.log("E",obj4)//object assign is a static method to copy all one or more source objects to form a target object and it returns the target modified object 
