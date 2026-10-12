@@ -22,6 +22,7 @@ console.log("\n\nLEARNING API ")
 //     "class":"7th sem"
 // }
 
+//we can get API in form of array of objects like
 // [
 //     {},
 //     {},
