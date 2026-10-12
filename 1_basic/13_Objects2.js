@@ -37,12 +37,12 @@ console.log("E",obj4)//object assign is a static method to copy all one or more 
 
 const obj5={...obj1,...obj2}//spreading out the objects
 console.log(obj5);
-console.log("F",Object.keys(obj2))//=>output will be as arrays
-console.log("G",Object.values(obj2))//give the values of object in form of arrays
-console.log("H",Object.entries(obj2))//it will make arrays of arrays each array has two element keys and values and these arrays will be in a outside array
+console.log("F",Object.keys(obj2))//=>F [ '4', '5', '6' ] output will be as arrays 
+console.log("G",Object.values(obj2))//=>G [ 'd', 'e', 'f' ] give the values of object in form of arrays
+console.log("H",Object.entries(obj2))//=>H [ [ '4', 'd' ], [ '5', 'e' ], [ '6', 'f' ] ] it will make arrays of arrays each array has two element keys and values and these arrays will be in a outside array
 
-console.log(obj2.hasOwnProperty('9'))//does this obj2 contain 9(check key only) =>false
-console.log(obj2.hasOwnProperty('5'))
+console.log(obj2.hasOwnProperty('9'))//=>false does this obj2 contain 9(check key only) =>false
+console.log(obj2.hasOwnProperty('5'))//=>true does this obj2 contain 5(check key only) =>true
 
 const user=[//objecct inside array
     {
