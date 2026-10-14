@@ -11,10 +11,10 @@
     }
  }
 
- user.welcomeMessage()
+ user.welcomeMessage()//=> Riyaz welcome to website
  user.username="sam"
- user.welcomeMessage()
- console.log("outside THIS" , this)//=> it will give the output empty object cause there is nothing in the current context
+ user.welcomeMessage()//=> sam welcome to website
+ console.log("outside THIS" , this)//=> { } it will give the output empty object cause there is nothing in the current context
 
 console.log("\n\nMORE ABOUT THIS KEYWORD")
 function chai(){
@@ -39,6 +39,16 @@ const chai3 =()=>{
     console.log(this)//=> empty object
 }
 chai3()
+
+const addTwo=(num1,num2)=>{
+    return num1+num2
+}
+console.log(addTwo(3,4))//=>7
+
+const addThree=(num1,num2,num3)=> num1+num2+num3//we can also write like(num1+num2+num3)//=>this is also valid syntax for arrow function
+console.log(addThree(3,4,5))//=>12
+
+const fun=()=> ({name:"faiz", age:25}) //=>it return objects syntax to return object in arrow function
 
 
 
