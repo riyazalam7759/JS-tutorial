@@ -21,11 +21,11 @@ TRUTHY VALUES:
  
 //+++++++++++++CHECKING EMPTY ARRAY++++++++++++++++
 const userEmail2=[]
-if(userEmail2.length===0) console.log(" \nuser email is empty ")
+if(userEmail2.length===0) console.log(" \nuser email is empty ")// checking array empty or not 
 
 //checking empty object 
 const emptyObj ={}
-if(Object.keys(emptyObj).length===0) console.log("object is empty")//Object.keys(emptyObj) => this will return an array
+if(Object.keys(emptyObj).length===0) console.log("object is empty")//checking object is empty or not .  Object.keys(emptyObj) => this will return an array
 
 /*
 false ==0 => true
