@@ -51,7 +51,7 @@ console.log(val3)
 //++++++++++++++++++TERNARY OPERATOR++++++++++++++===
 console.log("\n\n TERNARY OPERATOR")
 const iceTeaPrice = 100
-iceTeaPrice <= 80 ? console.log("price less than 80") : console.log("price greater than 80")
+iceTeaPrice <= 80 ? console.log("price less than 80") : console.log("price greater than 80")//=> price greater than 80
 
 
 
