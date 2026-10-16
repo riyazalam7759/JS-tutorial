@@ -45,7 +45,7 @@ val2 = undefined ?? 15
 console.log(val2) //= > 15
 
 let val3 ;
-val3 = null ?? 11 ?? 12 //=> ffirst value after null will be assigned 
+val3 = null ?? 11 ?? 12 //=>11 first value after null will be assigned 
 console.log(val3)
 
 //++++++++++++++++++TERNARY OPERATOR++++++++++++++===
