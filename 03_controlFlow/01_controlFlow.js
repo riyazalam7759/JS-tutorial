@@ -4,7 +4,7 @@
 const isUserLoggedIn=true
 
 if(2 == "2"){
-    console.log("executed")
+    console.log("A :- executed")//=>will be executed
 }
 
 if(2 === "2"){
@@ -12,7 +12,7 @@ if(2 === "2"){
 }
 
 const balance = 1000
-if(balance>500) console.log("test ") , console.log("test 2");
+if(balance>500) console.log("test ") , console.log("test 2"); //both line will be executed 
 
 if(balance<500){
     console.log("less than 500");
@@ -33,4 +33,18 @@ if(isUserLoggedIn2 && debitcard )
 {
     console.log("allow to buy ")
 }
+
+const score =200
+if(score>100)
+{
+    const power="fly"// or let power="fly"
+    console.log(`user power is ${power}`)
+}
+// console.log(`user power is ${power}`) => this is will give error cause power is local variable of if condition 
   
+if(score>100)
+{
+    var power2="telepathy"
+    console.log(`user power is ${power2}`)
+}
+ console.log(`user power is ${power2}`) //=>this will also be executed cause var is considered to global varible
