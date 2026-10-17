@@ -8,7 +8,7 @@ const arr = [10 , 11 , 12 , 13 , 14]
 
 for (const num of arr) {
     console.log(num)  
-}
+} 
 
 const greeting = "hello world"
 for(const greet of greeting){
@@ -37,7 +37,7 @@ const myObj = {
     'game2':'Spiderman',
     'game3':'MineCraft'
 }
-for([key , value] of myObj){//this will give error
-    console.log(key , ':-' , value)//but this is not iterable it wont work like this 
-}
+// for([key , value] of myObj){//this will give error
+//     console.log(key , ':-' , value)//but this is not iterable it wont work like this 
+// }
 
