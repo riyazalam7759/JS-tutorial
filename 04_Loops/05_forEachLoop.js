@@ -1,6 +1,7 @@
 //for each loop => 8:11:00 
 //some loops are directly added in the property of arrays
 //this is higher order function
+//there wont be any name of the callback function in for each loop
 const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
 
 //coding.forEach(call_back_function(){}) =>call back function doesnt have any name 
@@ -40,7 +41,7 @@ const myCoding =[//object inside array
 ]
 myCoding.forEach((item)=>{
     console.log(item.languageName)
-
+    console.log(item.languageFile)
 })
 
 
