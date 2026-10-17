@@ -10,13 +10,14 @@ const myObj = {
     swift:'Swift by apple'
 
 }
-for(const key in myObj){
+//we will use for in loop for the object iteration 
+for(const key in myObj){//for in loop is used to iterate the object
    console.log(key)//all the key will be printed 
    console.log(myObj[key])//this will print the values of the object 
    console.log(`${key} shortcut is for ${myObj[key]}`)
 }
 
-
+//we can also use for in loop on array but it will give index of the array not the values of the array
 console.log("\n\n APPLYING FOR IN LOOP ON ARRAY")
 const programming =["js" , "rb" , "py" , "java" , "cpp"]
 for(const key in programming){
